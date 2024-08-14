@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "f51c4f69-9a0f-4477-88e8-5f4a5d2e5cb2")
 	(paper "A3")
+	(title_block
+		(title "Power supply - low level driver")
+		(date "2024-06-28")
+	)
 	(lib_symbols
 		(symbol "Device:Q_NPN_EBC"
 			(pin_names
@@ -1511,7 +1515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b6f59e9-5ecf-4256-9d08-d9a3333c8c5a")
-		(property "Reference" "Q301"
+		(property "Reference" "Q1701"
 			(at 147.955 59.055 0)
 			(effects
 				(font
@@ -1577,7 +1581,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "Q301")
+					(reference "Q1701")
 					(unit 2)
 				)
 			)
@@ -1593,7 +1597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c0d3f2c-1d2b-4049-843f-8d4ed0568728")
-		(property "Reference" "R302"
+		(property "Reference" "R1702"
 			(at 126.365 62.865 0)
 			(effects
 				(font
@@ -1647,7 +1651,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "R302")
+					(reference "R1702")
 					(unit 1)
 				)
 			)
@@ -1663,7 +1667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d46d9a4-9ccb-47b4-92df-cbfe3aa9f738")
-		(property "Reference" "R305"
+		(property "Reference" "R1705"
 			(at 170.815 92.075 0)
 			(effects
 				(font
@@ -1717,7 +1721,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "R305")
+					(reference "R1705")
 					(unit 1)
 				)
 			)
@@ -1733,7 +1737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "134e1414-100c-4b63-b2c5-ee2511625f71")
-		(property "Reference" "U301"
+		(property "Reference" "U1701"
 			(at 75.565 119.38 0)
 			(effects
 				(font
@@ -1811,7 +1815,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "U301")
+					(reference "U1701")
 					(unit 1)
 				)
 			)
@@ -1827,7 +1831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e7a00a1-d35b-4e6b-890d-1ce3621384d6")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR01704"
 			(at 124.46 99.06 0)
 			(effects
 				(font
@@ -1877,7 +1881,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "#PWR0304")
+					(reference "#PWR01704")
 					(unit 1)
 				)
 			)
@@ -1893,7 +1897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22f536b5-f3b0-454b-a01a-7bb39b9cedf5")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR01705"
 			(at 153.035 99.06 0)
 			(effects
 				(font
@@ -1943,7 +1947,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "#PWR0305")
+					(reference "#PWR01705")
 					(unit 1)
 				)
 			)
@@ -1959,7 +1963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31c74e71-571d-4c54-b549-a71ffd861c49")
-		(property "Reference" "Q304"
+		(property "Reference" "Q1704"
 			(at 208.28 86.995 0)
 			(effects
 				(font
@@ -2016,7 +2020,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "Q304")
+					(reference "Q1704")
 					(unit 1)
 				)
 			)
@@ -2032,7 +2036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff26ff8-fa42-4d86-beae-3b1b2123132b")
-		(property "Reference" "R306"
+		(property "Reference" "R1706"
 			(at 181.61 75.565 0)
 			(effects
 				(font
@@ -2086,7 +2090,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "R306")
+					(reference "R1706")
 					(unit 1)
 				)
 			)
@@ -2101,7 +2105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47ae13c8-33c5-4321-a5fb-2fdb661fe0fd")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR01701"
 			(at 67.31 138.43 0)
 			(effects
 				(font
@@ -2151,7 +2155,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "#PWR0301")
+					(reference "#PWR01701")
 					(unit 1)
 				)
 			)
@@ -2166,7 +2170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55d943a1-8c71-4701-8577-711b099bbe9d")
-		(property "Reference" "Q301"
+		(property "Reference" "Q1701"
 			(at 127 86.995 0)
 			(effects
 				(font
@@ -2232,7 +2236,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "Q301")
+					(reference "Q1701")
 					(unit 1)
 				)
 			)
@@ -2248,7 +2252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7238ae2b-9f29-421b-b17a-d9d7f4ebe627")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR01707"
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -2298,7 +2302,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "#PWR0307")
+					(reference "#PWR01707")
 					(unit 1)
 				)
 			)
@@ -2314,7 +2318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84e3b286-4069-4d99-b1ad-35d17f9bf593")
-		(property "Reference" "Q302"
+		(property "Reference" "Q1702"
 			(at 155.575 86.995 0)
 			(effects
 				(font
@@ -2371,7 +2375,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "Q302")
+					(reference "Q1702")
 					(unit 1)
 				)
 			)
@@ -2387,7 +2391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87877fe1-1c03-4dbb-9020-22ad9be72bfe")
-		(property "Reference" "R304"
+		(property "Reference" "R1704"
 			(at 154.94 75.565 0)
 			(effects
 				(font
@@ -2441,7 +2445,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "R304")
+					(reference "R1704")
 					(unit 1)
 				)
 			)
@@ -2457,7 +2461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95554287-46d4-48c7-8b3b-e854a5a9f1b7")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR01706"
 			(at 179.705 99.06 0)
 			(effects
 				(font
@@ -2507,7 +2511,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "#PWR0306")
+					(reference "#PWR01706")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0934afd-a6bc-4202-9eff-5f3b7621f9c3")
-		(property "Reference" "R301"
+		(property "Reference" "R1701"
 			(at 115.57 92.075 0)
 			(effects
 				(font
@@ -2577,7 +2581,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "R301")
+					(reference "R1701")
 					(unit 1)
 				)
 			)
@@ -2593,7 +2597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b083b2d5-174e-4fef-b68b-16985a43df5c")
-		(property "Reference" "R307"
+		(property "Reference" "R1707"
 			(at 196.85 92.075 0)
 			(effects
 				(font
@@ -2647,7 +2651,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "R307")
+					(reference "R1707")
 					(unit 1)
 				)
 			)
@@ -2662,7 +2666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bead12e3-d5b9-4844-9a7b-4aeec4750729")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR01702"
 			(at 73.66 124.46 0)
 			(effects
 				(font
@@ -2712,7 +2716,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "#PWR0302")
+					(reference "#PWR01702")
 					(unit 1)
 				)
 			)
@@ -2728,7 +2732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c336baee-22fc-4c44-b996-4973b4b34b22")
-		(property "Reference" "Q303"
+		(property "Reference" "Q1703"
 			(at 182.245 86.995 0)
 			(effects
 				(font
@@ -2785,7 +2789,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "Q303")
+					(reference "Q1703")
 					(unit 1)
 				)
 			)
@@ -2801,7 +2805,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e79df178-0ea9-4e4d-99d4-4b15561499cc")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR01703"
 			(at 73.66 149.86 0)
 			(effects
 				(font
@@ -2851,7 +2855,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "#PWR0303")
+					(reference "#PWR01703")
 					(unit 1)
 				)
 			)
@@ -2867,7 +2871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eccb84be-d723-40c1-a817-1af5b9a86f0b")
-		(property "Reference" "R303"
+		(property "Reference" "R1703"
 			(at 144.145 92.075 0)
 			(effects
 				(font
@@ -2921,7 +2925,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/8ab1ebaa-6c81-454c-95da-69d323116c23"
-					(reference "R303")
+					(reference "R1703")
 					(unit 1)
 				)
 			)

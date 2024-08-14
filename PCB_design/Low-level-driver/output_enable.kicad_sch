@@ -1130,19 +1130,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "57bcffad-8e93-4376-bdd2-430437f5b544")
+			(uuid "2e4b462f-419e-4efc-97a4-a3e858c21e55")
 		)
 		(pin "1"
-			(uuid "e9e2d951-8ddd-4900-9a03-9e971ff3dfc5")
+			(uuid "faa64496-62ac-45de-b52e-6d202a532232")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7d6c0230-91b3-4a2a-9a09-3f3403bcba97"
-					(reference "R503")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/016df87f-c803-44fb-9ff3-a33dc71d7c4c"
+					(reference "R603")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/ef1af7e8-3f5a-4110-91c9-f8ee26645e73"
-					(reference "R403")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/9363c3cd-da89-4013-abbb-a8f39df5ef51"
+					(reference "R503")
 					(unit 1)
 				)
 			)
@@ -1229,22 +1229,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "a4b5dd43-c01c-4e7c-91a7-f9ce600f4ec3")
+			(uuid "d21bf84a-4b63-4a87-8fcc-28c50c26dd79")
 		)
 		(pin "3"
-			(uuid "106688e9-9d5d-4bb7-94d9-493675fd1619")
+			(uuid "0587a750-a2aa-4795-b7f7-8c3df49832db")
 		)
 		(pin "1"
-			(uuid "99542d8a-1167-40cc-b860-fd715e62555e")
+			(uuid "658f1c44-e04d-42c8-a54b-1e8a1dabbe4c")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7d6c0230-91b3-4a2a-9a09-3f3403bcba97"
-					(reference "Q502")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/016df87f-c803-44fb-9ff3-a33dc71d7c4c"
+					(reference "Q602")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/ef1af7e8-3f5a-4110-91c9-f8ee26645e73"
-					(reference "Q402")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/9363c3cd-da89-4013-abbb-a8f39df5ef51"
+					(reference "Q502")
 					(unit 1)
 				)
 			)
@@ -1307,19 +1307,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "dbf94bdc-8333-4920-8521-ec4daaf94bcd")
+			(uuid "5b002d8f-90c4-45fa-81f7-492a83c1ddb1")
 		)
 		(pin "1"
-			(uuid "557d4cba-b674-4fc8-907b-9ecd1af6a996")
+			(uuid "1068c8fe-513c-40d6-8b16-f9f54ab5dff5")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7d6c0230-91b3-4a2a-9a09-3f3403bcba97"
-					(reference "R501")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/016df87f-c803-44fb-9ff3-a33dc71d7c4c"
+					(reference "R601")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/ef1af7e8-3f5a-4110-91c9-f8ee26645e73"
-					(reference "R401")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/9363c3cd-da89-4013-abbb-a8f39df5ef51"
+					(reference "R501")
 					(unit 1)
 				)
 			)
@@ -1378,19 +1378,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "45280487-f913-4251-a9a1-0d65fc6036ac")
+			(uuid "195a953d-5c37-4474-b175-c8ff1b5cd6e5")
 		)
 		(pin "2"
-			(uuid "45473b4b-c84c-403b-abd2-1664fb37e564")
+			(uuid "1e011149-ebd3-4f4f-aed6-2b13a1b5b527")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7d6c0230-91b3-4a2a-9a09-3f3403bcba97"
-					(reference "R502")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/016df87f-c803-44fb-9ff3-a33dc71d7c4c"
+					(reference "R602")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/ef1af7e8-3f5a-4110-91c9-f8ee26645e73"
-					(reference "R402")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/9363c3cd-da89-4013-abbb-a8f39df5ef51"
+					(reference "R502")
 					(unit 1)
 				)
 			)
@@ -1452,22 +1452,22 @@
 			)
 		)
 		(pin "1"
-			(uuid "da83bd76-62c8-4cf1-9bb0-3639af33ee2d")
+			(uuid "227afe1b-037c-4d78-9dad-1ccbf5ecb909")
 		)
 		(pin "2"
-			(uuid "1af9bf22-5a84-44d3-929f-51a0969aece6")
+			(uuid "68de278e-2b4a-41f6-a1a9-029fd73c2f15")
 		)
 		(pin "3"
-			(uuid "1d7736c4-9232-4440-87f8-92a270f869e5")
+			(uuid "5f294053-98ee-46d7-93f3-2058c2a62971")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7d6c0230-91b3-4a2a-9a09-3f3403bcba97"
-					(reference "Q501")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/016df87f-c803-44fb-9ff3-a33dc71d7c4c"
+					(reference "Q601")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/ef1af7e8-3f5a-4110-91c9-f8ee26645e73"
-					(reference "Q401")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/9363c3cd-da89-4013-abbb-a8f39df5ef51"
+					(reference "Q501")
 					(unit 1)
 				)
 			)
@@ -1528,16 +1528,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b821dd5-31b9-4ebf-bb9d-b112b72a2aa5")
+			(uuid "2df2c84c-9f8e-480c-88be-b0c7518f42b5")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7d6c0230-91b3-4a2a-9a09-3f3403bcba97"
-					(reference "#PWR0501")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/016df87f-c803-44fb-9ff3-a33dc71d7c4c"
+					(reference "#PWR0601")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/ef1af7e8-3f5a-4110-91c9-f8ee26645e73"
-					(reference "#PWR0401")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/9363c3cd-da89-4013-abbb-a8f39df5ef51"
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -1562,7 +1562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12V"
+		(property "Value" "?12V"
 			(at 69.85 72.3899 90)
 			(effects
 				(font
@@ -1599,19 +1599,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "7e8706a2-1fdf-4765-98a5-782b48809328")
+			(uuid "e26183ba-77eb-4f5c-91e0-373941e5b87e")
 		)
 		(pin "1"
-			(uuid "f71be1e6-f595-424a-a222-c437711b159e")
+			(uuid "eee453ab-c216-46e7-8a06-117c48f8f119")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7d6c0230-91b3-4a2a-9a09-3f3403bcba97"
-					(reference "D501")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/016df87f-c803-44fb-9ff3-a33dc71d7c4c"
+					(reference "D601")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/ef1af7e8-3f5a-4110-91c9-f8ee26645e73"
-					(reference "D401")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/9363c3cd-da89-4013-abbb-a8f39df5ef51"
+					(reference "D501")
 					(unit 1)
 				)
 			)

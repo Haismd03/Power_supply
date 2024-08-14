@@ -264,13 +264,39 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 16,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 12
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+48V": "Power",
+      "/Feedback loop 1/FB_{IN}": "Power",
+      "/Feedback loop 2/FB_{IN}": "Power",
+      "/Output Enable 1/V_{IN}": "Power",
+      "/Output Enable 1/V_{out}": "Power",
+      "/Output Enable 2/V_{IN}": "Power",
+      "/Output Enable 2/V_{out}": "Power",
+      "/Power Meter 3/V_{OUT}": "Power"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -357,6 +383,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -410,28 +454,64 @@
       "Root"
     ],
     [
-      "b45a9735-60e6-4eb5-839a-e6b78288bd08",
+      "68ce1c38-cc8d-48bc-b4cb-785d80ab21e4",
+      "Power supply"
+    ],
+    [
+      "61b72fa9-6d15-44ea-89f4-a52b3dbe9785",
+      "Feedback loop 1"
+    ],
+    [
+      "ec88b74d-9e51-4be0-9af1-ce0f847de27e",
+      "Feedback loop 2"
+    ],
+    [
+      "9363c3cd-da89-4013-abbb-a8f39df5ef51",
+      "Output Enable 1"
+    ],
+    [
+      "016df87f-c803-44fb-9ff3-a33dc71d7c4c",
+      "Output Enable 2"
+    ],
+    [
+      "128e4573-9270-4dc9-a769-eeca3ba2582e",
+      "Power Meter 1"
+    ],
+    [
+      "427b1730-dc56-4e6c-8a7f-70a3ace5a196",
+      "Power Meter 2"
+    ],
+    [
+      "816f3957-0c05-4424-bbd1-ce08a032f88f",
+      "Power Meter 3"
+    ],
+    [
+      "fc16a9b7-58fe-46ae-b1a6-53c2dcbd67dc",
+      "Filter_{in}"
+    ],
+    [
+      "a606a429-17db-405f-9eaf-8fc6a9c822cc",
+      "Filter_{OUT} 1"
+    ],
+    [
+      "7a6cc648-2320-4c5a-8776-ce46b8832613",
+      "Filter_{OUT} 2"
+    ],
+    [
+      "d58bec70-f787-4524-b841-52e2857237a4",
       "Ballast"
     ],
     [
-      "359ad774-7725-4d02-a8a0-c10825a83f2a",
-      "Ballast1"
-    ],
-    [
-      "ef1af7e8-3f5a-4110-91c9-f8ee26645e73",
-      "Output Enable - V_{OUT2}"
-    ],
-    [
-      "7d6c0230-91b3-4a2a-9a09-3f3403bcba97",
-      "Output Enable - V_{OUT1}"
-    ],
-    [
-      "01ca3785-0e3e-4a04-8db2-6c3c91b7e708",
-      "To be removed"
-    ],
-    [
-      "cf922ce0-f5a0-411d-bc92-d82d0927009e",
+      "d58bec70-f787-4524-b841-52e2857237a4",
       "Ballast"
+    ],
+    [
+      "ebcf6f08-c93e-4e55-ae55-4bfa1dc0cefc",
+      "Auxiliary power supply"
+    ],
+    [
+      "741d97eb-4d41-46a3-bc95-8b959e917640",
+      "GPIO expander"
     ],
     [
       "8ab1ebaa-6c81-454c-95da-69d323116c23",
@@ -440,6 +520,14 @@
     [
       "0f5f3a01-f1db-43da-b53b-d3878d37b104",
       "Power mode"
+    ],
+    [
+      "01ca3785-0e3e-4a04-8db2-6c3c91b7e708",
+      "To be removed"
+    ],
+    [
+      "cf922ce0-f5a0-411d-bc92-d82d0927009e",
+      "Ballast"
     ]
   ],
   "text_variables": {}

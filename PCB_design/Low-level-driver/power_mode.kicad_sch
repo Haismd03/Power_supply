@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "56eec39a-c30b-4263-9586-0abe80957450")
 	(paper "A3")
+	(title_block
+		(title "Power supply - low level driver")
+		(date "2024-06-28")
+	)
 	(lib_symbols
 		(symbol "Device:Q_NPN_EBC"
 			(pin_names
@@ -1027,7 +1031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0480063a-46a0-4bc8-a0cc-6f845b3e729f")
-		(property "Reference" "Q402"
+		(property "Reference" "Q1802"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -1084,7 +1088,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "Q402")
+					(reference "Q1802")
 					(unit 1)
 				)
 			)
@@ -1099,7 +1103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07bce0bc-8c4d-48ce-aac5-e07059bc3173")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR01801"
 			(at 80.01 140.97 0)
 			(effects
 				(font
@@ -1149,7 +1153,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "#PWR0401")
+					(reference "#PWR01801")
 					(unit 1)
 				)
 			)
@@ -1164,7 +1168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bd6f2e2-deaa-4205-8f86-86307d9f81ef")
-		(property "Reference" "R402"
+		(property "Reference" "R1802"
 			(at 120.65 60.325 0)
 			(effects
 				(font
@@ -1226,7 +1230,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "R402")
+					(reference "R1802")
 					(unit 1)
 				)
 			)
@@ -1242,7 +1246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24954676-fd31-49d2-94a8-754b2c0748bf")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR01803"
 			(at 86.36 152.4 0)
 			(effects
 				(font
@@ -1292,7 +1296,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "#PWR0403")
+					(reference "#PWR01803")
 					(unit 1)
 				)
 			)
@@ -1307,7 +1311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56180a62-2169-4890-ac89-0a32a3056f30")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR01802"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -1357,7 +1361,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "#PWR0402")
+					(reference "#PWR01802")
 					(unit 1)
 				)
 			)
@@ -1373,7 +1377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b789035-38f5-449f-ae53-c38dcc973b67")
-		(property "Reference" "Q401"
+		(property "Reference" "Q1801"
 			(at 121.285 87.63 0)
 			(effects
 				(font
@@ -1430,7 +1434,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "Q401")
+					(reference "Q1801")
 					(unit 1)
 				)
 			)
@@ -1446,7 +1450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ba37e3d-4c07-439f-81bd-4cd0767c3fbc")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR01804"
 			(at 118.745 99.695 0)
 			(effects
 				(font
@@ -1496,7 +1500,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "#PWR0404")
+					(reference "#PWR01804")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d87cca6-33d2-424e-81bc-20c0db42ec77")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR01805"
 			(at 152.4 99.695 0)
 			(effects
 				(font
@@ -1562,7 +1566,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "#PWR0405")
+					(reference "#PWR01805")
 					(unit 1)
 				)
 			)
@@ -1578,7 +1582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "763ef85f-fcf1-44a4-9f23-8614b36045b7")
-		(property "Reference" "R401"
+		(property "Reference" "R1801"
 			(at 109.22 92.075 0)
 			(effects
 				(font
@@ -1632,7 +1636,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "R401")
+					(reference "R1801")
 					(unit 1)
 				)
 			)
@@ -1647,7 +1651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fcc6262-17a5-4e22-9805-9f840fd9c9ee")
-		(property "Reference" "R404"
+		(property "Reference" "R1804"
 			(at 154.305 75.565 0)
 			(effects
 				(font
@@ -1709,7 +1713,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "R404")
+					(reference "R1804")
 					(unit 1)
 				)
 			)
@@ -1725,7 +1729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b864b3aa-5ae9-4386-bf71-0ea3795ae053")
-		(property "Reference" "R403"
+		(property "Reference" "R1803"
 			(at 142.875 92.075 0)
 			(effects
 				(font
@@ -1779,7 +1783,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "R403")
+					(reference "R1803")
 					(unit 1)
 				)
 			)
@@ -1795,7 +1799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2e7c86b-5e1a-465e-8069-e0180d7e8bda")
-		(property "Reference" "U401"
+		(property "Reference" "U1801"
 			(at 88.265 121.92 0)
 			(effects
 				(font
@@ -1873,7 +1877,7 @@
 		(instances
 			(project "Low-level-driver"
 				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/01ca3785-0e3e-4a04-8db2-6c3c91b7e708/0f5f3a01-f1db-43da-b53b-d3878d37b104"
-					(reference "U401")
+					(reference "U1801")
 					(unit 1)
 				)
 			)
