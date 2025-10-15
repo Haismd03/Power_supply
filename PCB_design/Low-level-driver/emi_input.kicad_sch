@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f0b90e56-4141-4b9c-a8c0-4f4e391ad636")
 	(paper "A4")
 	(title_block
@@ -10,7 +10,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -83,7 +85,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -95,7 +97,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -144,12 +146,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -240,13 +247,8 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 153.67 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8b3284f-c94c-44bd-89c7-3487b46e6833")
 	)
 	(wire
 		(pts
@@ -260,16 +262,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 87.63) (xy 153.67 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14cd0b0f-706d-44ab-a804-1c8387686e38")
-	)
-	(wire
-		(pts
 			(xy 153.67 87.63) (xy 153.67 91.44)
 		)
 		(stroke
@@ -278,10 +270,19 @@
 		)
 		(uuid "72e0e55b-2d01-4a92-8d98-a59ea7b98785")
 	)
+	(wire
+		(pts
+			(xy 50.8 87.63) (xy 60.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd3590e-58eb-4139-9cfb-e999db8e6741")
+	)
 	(hierarchical_label "IN"
 		(shape input)
 		(at 50.8 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -293,7 +294,6 @@
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 176.53 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1,0 +1,67 @@
+
+**** 10/01/25 11:46:44 **** PSpice 24.1.0 (23 January 2025) *** ID# 0 ********
+
+ ** Profile: "summing node-summing node"  [ D:\Projekty\Power_supply\PCB_design\Simulations\summing node-pspicefiles\summing node\sum
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "summing node.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\David\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM V_node 5V 0V 0.1V 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\summing node.net" 
+
+
+
+**** INCLUDING "summing node.net" ****
+* source SUMMING NODE
+R_R1         OUT N00617 100k
+R_R2         N00617 0 1.33k
+V_V2         N00419 0 {V_node}
+V_V3         N01621 0 0.6V
+R_R3         N00617 N00419  9.31k TC=0,0 
+E_U3         OUT 0 VALUE {LIMIT(V(N01621,N00617)*1E6,0,60)}
+R_R5         N01902 N01934  5900 TC=0,0 
+R_R6         N01902 0 1400
+V_V5         N01978 0 0.6V
+R_R4         OUT2 N01902 100k
+E_U4         OUT2 0 VALUE {LIMIT(V(N01978,N01902)*1E6,0,60)}
+V_V6         N01934 0 {V_node}
+.PARAM  v_node=0
+
+**** RESUMING "summing node.cir" ****
+.END
+
+
+          JOB CONCLUDED
+
+**** 10/01/25 11:46:44 **** PSpice 24.1.0 (23 January 2025) *** ID# 0 ********
+
+ ** Profile: "summing node-summing node"  [ D:\Projekty\Power_supply\PCB_design\Simulations\summing node-pspicefiles\summing node\sum
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

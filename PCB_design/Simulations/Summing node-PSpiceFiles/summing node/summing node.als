@@ -1,0 +1,16 @@
+.ALIASES
+R_R1            R1(1=OUT 2=N00617 ) CN @SUMMING NODE.summing node(sch_1):INS238@DISCRETE.R.Normal(chips)
+R_R2            R2(1=N00617 2=0 ) CN @SUMMING NODE.summing node(sch_1):INS280@DISCRETE.R.Normal(chips)
+V_V2            V2(+=N00419 -=0 ) CN @SUMMING NODE.summing node(sch_1):INS401@SOURCE.VDC.Normal(chips)
+V_V3            V3(+=N01621 -=0 ) CN @SUMMING NODE.summing node(sch_1):INS537@SOURCE.VDC.Normal(chips)
+R_R3            R3(1=N00617 2=N00419 ) CN @SUMMING NODE.summing node(sch_1):INS682@ANALOG.R.Normal(chips)
+E_U3            U3(OUT=OUT +=N01621 -=N00617 ) CN @SUMMING NODE.summing node(sch_1):INS1281@ANALOG.OPAMP.Normal(chips)
+R_R5            R5(1=N01902 2=N01934 ) CN @SUMMING NODE.summing node(sch_1):INS1904@ANALOG.R.Normal(chips)
+R_R6            R6(1=N01902 2=0 ) CN @SUMMING NODE.summing node(sch_1):INS1944@DISCRETE.R.Normal(chips)
+V_V5            V5(+=N01978 -=0 ) CN @SUMMING NODE.summing node(sch_1):INS1980@SOURCE.VDC.Normal(chips)
+R_R4            R4(1=OUT2 2=N01902 ) CN @SUMMING NODE.summing node(sch_1):INS1866@DISCRETE.R.Normal(chips)
+E_U4            U4(OUT=OUT2 +=N01978 -=N01902 ) CN @SUMMING NODE.summing node(sch_1):INS1882@ANALOG.OPAMP.Normal(chips)
+V_V6            V6(+=N01934 -=0 ) CN @SUMMING NODE.summing node(sch_1):INS2324@SOURCE.VDC.Normal(chips)
+_    _(out=OUT)
+_    _(out2=OUT2)
+.ENDALIASES

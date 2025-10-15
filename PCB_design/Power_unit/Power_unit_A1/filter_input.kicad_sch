@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ac3fc701-b5a7-40dd-b043-0fa23e1a001f")
+	(uuid "f0b90e56-4141-4b9c-a8c0-4f4e391ad636")
 	(paper "A4")
 	(title_block
 		(title "Power supply - low level driver")
@@ -250,149 +250,69 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 187.96 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "960979df-c7bd-4c78-94f2-1a2e5d9cbe77")
-	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 209.55 91.44)
+			(xy 153.67 87.63) (xy 176.53 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "337a1fda-d164-4efd-80f0-b1a4fedeed85")
+		(uuid "11a72431-259b-4f30-b166-03196635faae")
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 187.96 95.25)
+			(xy 153.67 87.63) (xy 153.67 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68ecd385-3a44-4020-85c5-bc7151417ba2")
+		(uuid "72e0e55b-2d01-4a92-8d98-a59ea7b98785")
 	)
 	(wire
 		(pts
-			(xy 83.82 91.44) (xy 187.96 91.44)
+			(xy 50.8 87.63) (xy 60.96 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "973bf5c1-0776-489c-a4ac-351ce4fb3eec")
+		(uuid "afd3590e-58eb-4139-9cfb-e999db8e6741")
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 83.82 91.44 180)
+		(at 50.8 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9949946f-1739-4ceb-a496-2cc66b06be80")
+		(uuid "374aafc6-e672-4880-bb12-468a3d8bbe63")
 	)
 	(hierarchical_label "OUT"
 		(shape output)
-		(at 209.55 91.44 0)
+		(at 176.53 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ae5e5540-417d-4848-a81f-7e8300b93da4")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eabe46a4-3c09-4f75-8fd5-f5bc3aad605d")
-		(property "Reference" "C1101"
-			(at 191.77 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 191.77 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.9252 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d831c71-38c4-4539-ae6b-1500f8a3476e")
-		)
-		(pin "1"
-			(uuid "f1152189-83d7-4df1-ad31-8b8872f909b5")
-		)
-		(instances
-			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7a6cc648-2320-4c5a-8776-ce46b8832613"
-					(reference "C1201")
-					(unit 1)
-				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/a606a429-17db-405f-9eaf-8fc6a9c822cc"
-					(reference "C1101")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "6584535f-c04e-4fc1-9135-a3e1a50e6fde")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 102.87 0)
+		(at 153.67 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f76976e3-664c-43e2-acb2-736a01052ce3")
-		(property "Reference" "#PWR01101"
-			(at 187.96 109.22 0)
+		(uuid "714839f1-32cc-486b-8d8f-ae5e4a721c9d")
+		(property "Reference" "#PWR0901"
+			(at 153.67 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +321,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.516 104.902 0)
+			(at 157.226 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,7 +329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 102.87 0)
+			(at 153.67 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -418,7 +338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 102.87 0)
+			(at 153.67 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -427,7 +347,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 102.87 0)
+			(at 153.67 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,16 +356,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "5daed419-76c5-4dfc-a385-13168dc25372")
+			(uuid "4576a64b-f91d-4944-81ce-1522b5f3a5a7")
 		)
 		(instances
 			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7a6cc648-2320-4c5a-8776-ce46b8832613"
-					(reference "#PWR01201")
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/fc16a9b7-58fe-46ae-b1a6-53c2dcbd67dc"
+					(reference "#PWR01001")
 					(unit 1)
 				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/a606a429-17db-405f-9eaf-8fc6a9c822cc"
-					(reference "#PWR01101")
+			)
+			(project "Low-level-driver"
+				(path "/39e95423-af83-4645-98fc-4a660ba074aa/45b56bb9-b346-4ff4-8959-e298f8ce3eca"
+					(reference "#PWR0901")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac454bb0-87a0-482e-8866-57fd8d729112")
+		(property "Reference" "C901"
+			(at 157.48 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 157.48 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.6352 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07525103-4133-488f-9cab-3b98de91bf7f")
+		)
+		(pin "1"
+			(uuid "8e9da8b2-a945-4919-9d1e-4734e6b519c8")
+		)
+		(instances
+			(project "Low-level-driver"
+				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/fc16a9b7-58fe-46ae-b1a6-53c2dcbd67dc"
+					(reference "C1001")
+					(unit 1)
+				)
+			)
+			(project "Low-level-driver"
+				(path "/39e95423-af83-4645-98fc-4a660ba074aa/45b56bb9-b346-4ff4-8959-e298f8ce3eca"
+					(reference "C901")
 					(unit 1)
 				)
 			)
