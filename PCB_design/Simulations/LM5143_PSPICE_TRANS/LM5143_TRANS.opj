@@ -1,0 +1,69 @@
+(ExpressProject "LM5143_TRANS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S024 (3998392)  [12/6/2021]-[03/16/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lm5143rha_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "lm5143_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm5143_trans-pspicefiles\startup\trans.sim"
+        (DisplayName "Startup-trans")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm5143_trans-pspicefiles\steady state\trans.sim"
+        (DisplayName "Steady State-trans")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lm5143_trans-pspicefiles\startup\trans.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm5143_trans.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LM5143RHA_TRANS
+      (FullPartName "LM5143RHA_TRANS.Normal")
+      (LibraryName
+         "C:\BSR_PROJECTS\PART_NUMBERS\LM5143\RELEASE_FOLDER\LM5143_PSPICE_TRANS\LM5143RHA_TRANS.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM5143-Q1RWG_TRANS
+      (FullPartName "LM5143QRWGRQ1.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\LM5143-Q1\RELEASE_SANKALP\PSPICE\LM5143-Q1_PSPICE_TRANS\LM5143-Q1RWG_TRANS.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "x0249457")
+  (Folder "Logs")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"
+         "C:\BSR_PROJECTS\Part_Numbers\LM5143\Release_Folder\Final\LM5143_PSPICE_TRANS\lm5143_trans.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 326 0 725"))
+      (Tab 0))))
