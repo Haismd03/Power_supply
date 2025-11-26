@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Power_supply")(type "KiCad")(uri "D:/Projekty/Power_supply/PCB_design/locallib/Power_supply.pretty")(options "")(descr ""))
-)
