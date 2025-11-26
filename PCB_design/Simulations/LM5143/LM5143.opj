@@ -1,0 +1,122 @@
+(ExpressProject "LM5143"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S002 (4270188)  [1/23/2025]-[11/14/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\lm5143.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\lm5143-pspicefiles\test\test.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\lm5143-pspicefiles\test\test.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm5143-pspicefiles\test\test.sim"
+        (DisplayName "Test-Test")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (0
+      (LibraryName "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (LM5143RHA_TRANS
+      (FullPartName "LM5143RHA_TRANS.Normal")
+      (LibraryName
+         "D:\PROJEKTY\POWER_SUPPLY\PCB_DESIGN\SIMULATIONS\LM5143_PSPICE_TRANS\LM5143RHA_TRANS.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence\OrCADX_24.1\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Projekty\Power_supply\PCB_design\Simulations\LM5143\lm5143.dsn")
+      (Path "Design Resources"
+         "D:\Projekty\Power_supply\PCB_design\Simulations\LM5143\lm5143.dsn"
+         "Test")
+      (Path "Design Resources"
+         "D:\Projekty\Power_supply\PCB_design\Simulations\LM5143\lm5143.dsn"
+         "LM5143")
+      (Path "Design Resources"
+         "D:\Projekty\Power_supply\PCB_design\Simulations\LM5143\lm5143.dsn"
+         "Power channel")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\Projekty\Power_supply\PCB_design\Simulations\LM5143\lm5143.dsn"
+         "Power channel" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 724"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 765")
+        (Scroll "-178 0")
+        (Zoom "103")
+        (Occurrence "/"))
+      (Path "D:\PROJEKTY\POWER_SUPPLY\PCB_DESIGN\SIMULATIONS\LM5143\LM5143.DSN")
+      (Schematic "Test")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 765")
+        (Scroll "-178 0")
+        (Zoom "103")
+        (Occurrence "/Test"))
+      (Path "D:\PROJEKTY\POWER_SUPPLY\PCB_DESIGN\SIMULATIONS\LM5143\LM5143.DSN")
+      (Schematic "Power channel")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 765")
+        (Scroll "-178 0")
+        (Zoom "103"))
+      (Path "D:\PROJEKTY\POWER_SUPPLY\PCB_DESIGN\SIMULATIONS\LM5143\LM5143.DSN")
+      (Schematic "LM5143")
+      (Page "PAGE1"))))

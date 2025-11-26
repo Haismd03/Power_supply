@@ -1,0 +1,20 @@
+** Profile: "CC-I set sweep"  [ d:\projekty\power_supply\pcb_design\simulations\summing node-pspicefiles\cc\i set sweep.sim ] 
+
+** Creating circuit file "I set sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\David\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V_i_Set 0 3.3 10m 
+.STEP PARAM R_out LIST 10, 1, 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\CC.net" 
+
+
+.END

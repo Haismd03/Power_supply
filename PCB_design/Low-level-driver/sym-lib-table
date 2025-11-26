@@ -1,5 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Lab_supply")(type "KiCad")(uri "D:/Projekty/Power_supply/Lab_supply.kicad_sym")(options "")(descr ""))
-  (lib (name "Power_source")(type "KiCad")(uri "D:/Projekty/Power_supply/PCB_design/Power_source.kicad_sym")(options "")(descr ""))
-)

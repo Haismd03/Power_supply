@@ -1,10 +1,10 @@
 (ExpressProject "Summing node"
   (ProjectVersion "19981106")
-  (SoftwareVersion "24.1 S002 (4270188)  [1/23/2025]-[09/22/25]")
+  (SoftwareVersion "24.1 S002 (4270188)  [1/23/2025]-[11/14/25]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
-    ("Allegro Netlist Directory" "allegro")
+    (Allegro Netlist Directory "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -12,18 +12,71 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\summing node-pspicefiles\summing node\summing node.net"
+      (Type "Report"))
+    (File ".\summing node-pspicefiles\cc\cc.net"
+      (Type "Report"))
+    (File ".\summing node-pspicefiles\cc_2\cc_2.net"
       (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles"
-      (ActiveProfile ".\summing node-pspicefiles\summing node\summing node.sim")
       (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
          ".\summing node-pspicefiles\summing node\summing node.sim"
         (DisplayName "summing node-summing node")
-        (Type "PSpice Profile")))
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\cc.sim"
+        (DisplayName "CC-CC")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\current sweep.sim"
+        (DisplayName "CC-Current sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\resistive sweep.sim"
+        (DisplayName "CC-Resistive sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\curretn sweep.sim"
+        (DisplayName "CC-Curretn sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc_2\current sweep.sim"
+        (DisplayName "CC_2-Current sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc_2\r_out sweep.sim"
+        (DisplayName "CC_2-R_out sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\resistive sweep, i set.sim"
+        (DisplayName "CC-Resistive sweep, I set")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\i set sweep.sim"
+        (DisplayName "CC-I set sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\summing node\v set, r sweep.sim"
+        (DisplayName "summing node-V set, R sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\voltage sweep, i set.sim"
+        (DisplayName "CC-Voltage sweep, I set")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\voltage sweep, low i.sim"
+        (DisplayName "CC-Voltage sweep, low I")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\summing node-pspicefiles\cc\i set sweep, short.sim"
+        (DisplayName "CC-I set sweep, short")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\summing node-pspicefiles\cc\voltage sweep, low i.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -33,6 +86,41 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (1N4151
+      (FullPartName "1N4151.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\EDIODE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (BC547A
+      (FullPartName "BC547A.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (BC557A
+      (FullPartName "BC557A.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (BC558A
+      (FullPartName "BC558A.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\EBIPOLAR.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
     (PARAM
       (FullPartName "PARAM.Normal")
       (LibraryName
@@ -47,41 +135,48 @@
       (FullPartName "LM741.Normal")
       (LibraryName
          "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
-      (LibraryName
-         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (VDC
-      (FullPartName "VDC.Normal")
-      (LibraryName
-         "D:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "D:\Projekty\Power_supply\PCB_design\Simulations\summing node.dsn")
+         "d:\projekty\power_supply\pcb_design\simulations\summing node.dsn")
+      (Path "Design Resources"
+         "d:\projekty\power_supply\pcb_design\simulations\summing node.dsn" "CC")
+      (Path "Design Resources"
+         "d:\projekty\power_supply\pcb_design\simulations\summing node.dsn"
+         "CC_2")
+      (Path "Design Resources"
+         "d:\projekty\power_supply\pcb_design\simulations\summing node.dsn"
+         "summing node")
       (Path "Outputs")
       (Select "Design Resources"
-         "D:\Projekty\Power_supply\PCB_design\Simulations\summing node.dsn"
-         "summing node"))
+         "d:\projekty\power_supply\pcb_design\simulations\summing node.dsn"
+         "CC_2" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 306"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 724"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 567 24 347")
-        (Scroll "349 130")
-        (Zoom "97")
-        (Occurrence "/"))
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 765")
+        (Scroll "-178 0")
+        (Zoom "103"))
       (Path "D:\PROJEKTY\POWER_SUPPLY\PCB_DESIGN\SIMULATIONS\SUMMING NODE.DSN")
       (Schematic "summing node")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 765")
+        (Scroll "-178 0")
+        (Zoom "103")
+        (Occurrence "/"))
+      (Path "D:\PROJEKTY\POWER_SUPPLY\PCB_DESIGN\SIMULATIONS\SUMMING NODE.DSN")
+      (Schematic "CC")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
      "D:\Cadence\OrCADX_24.1\tools\capture\library\pspice"))

@@ -57,6 +57,127 @@
         )
         ("VDC")
         ("OPAMP")
+        ("1N4151"
+            ("info"
+                ("spice_dsg"	"X")
+            )
+            ("model_params"
+                ("level_0"
+                    ("IS"
+                        ("value"	"10f")
+                    )
+                    ("RS"
+                        ("value"	"0")
+                    )
+                    ("N"
+                        ("value"	"1")
+                    )
+                    ("TT"
+                        ("value"	"0")
+                    )
+                    ("CJO"
+                        ("value"	"0")
+                    )
+                    ("VJ"
+                        ("value"	"1")
+                    )
+                    ("M"
+                        ("value"	"0.5")
+                    )
+                    ("EG"
+                        ("value"	"1.11")
+                    )
+                    ("XTI"
+                        ("value"	"3")
+                    )
+                    ("KF"
+                        ("value"	"0")
+                    )
+                    ("AF"
+                        ("value"	"1")
+                    )
+                    ("FC"
+                        ("value"	"0.5")
+                    )
+                    ("BV"
+                        ("value"	"100")
+                    )
+                    ("IBV"
+                        ("value"	".001")
+                    )
+                )
+            )
+            ("smoke"
+                ("max_ops_desc"
+                    ("IF"
+                        ("description"	"Max forward current")
+                        ("unit"	"A")
+                    )
+                    ("VR"
+                        ("description"	"Peak reverse voltage")
+                        ("unit"	"V")
+                    )
+                    ("PDM"
+                        ("description"	"Max pwr dissipation")
+                        ("unit"	"W")
+                    )
+                    ("TJ"
+                        ("description"	"Max junction temp")
+                        ("unit"	"C")
+                    )
+                    ("RJC"
+                        ("description"	"J-C thermal resist")
+                        ("unit"	"C/W")
+                    )
+                    ("RCA"
+                        ("description"	"C-A thermal resist")
+                        ("unit"	"C/W")
+                    )
+                )
+                ("pre_smoke"
+                    ("TERM_AN"	"-1")
+                    ("NODE_AN"	"AN")
+                    ("NODE_CAT"	"CAT")
+                    ("DERATE_TYPE"	"DIODE")
+                )
+                ("max_ops"
+                    ("RCA"	"RCA")
+                )
+                ("smoke_tests"
+                    ("IF"
+                        ("test"	"current_test")
+                        ("term"	"TERM_AN")
+                    )
+                    ("PDM"
+                        ("test"	"power_test")
+                    )
+                    ("TJ"
+                        ("test"	"temp_null_test")
+                    )
+                    ("VR"
+                        ("test"	"voltage_test")
+                        ("nodes"
+                            ("NODE_CAT")
+                            ("NODE_AN")
+                        )
+                    )
+                )
+                ("device_max_ops"
+                    ("IF"	"150m")
+                    ("IFM"	"500m")
+                    ("VR"	"75")
+                    ("PDM"	"500m")
+                    ("TJ"	"175")
+                    ("RJA"	"350")
+                )
+                ("device_pre_smoke"
+                    ("TERM_AN"	"1")
+                    ("NODE_AN"	"1")
+                    ("NODE_CAT"	"2")
+                    ("DERATE_TYPE"	"DIODE")
+                )
+            )
+        )
         ("Param")
     )
     ("instances"
@@ -301,9 +422,9 @@
                 )
             )
         )
-        ("V6"
+        ("V_V_set"
             ("device_name"	"VDC")
-            ("pspice_path"	"V_V6")
+            ("pspice_path"	"V_V_V_set")
             ("level"	"0")
             ("model_params"
                 ("DC"
@@ -316,11 +437,117 @@
                 )
             )
         )
+        ("R7"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R7")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"10m")
+                    ("pspice_param"	"VALUE")
+                    ("distrib"	"FLAT")
+                )
+                ("PSpice Model Type"
+                    ("value"	"0011")
+                    ("pspice_param"	"PSpice Model Type")
+                )
+                ("TC2"
+                    ("value"	"0")
+                    ("pspice_param"	"TC2")
+                )
+                ("TC1"
+                    ("value"	"0")
+                    ("pspice_param"	"TC1")
+                )
+                ("POWER"
+                    ("value"	"RMAX")
+                    ("pspice_param"	"POWER")
+                )
+                ("MAX_TEMP"
+                    ("value"	"RTMAX")
+                    ("pspice_param"	"MAX_TEMP")
+                )
+                ("SLOPE"
+                    ("value"	"RSMAX")
+                    ("pspice_param"	"SLOPE")
+                )
+                ("VOLTAGE"
+                    ("value"	"RVMAX")
+                    ("pspice_param"	"VOLTAGE")
+                )
+                ("TOLERANCE"
+                    ("value"	"")
+                    ("pspice_param"	"TOLERANCE")
+                )
+                ("DIST"
+                    ("value"	"FLAT")
+                    ("pspice_param"	"DIST")
+                )
+            )
+            ("smoke_vars"
+                ("POWER"	"0.25")
+                ("SLOPE"	"0.005")
+                ("MAX_TEMP"	"200.0")
+            )
+        )
+        ("U6"
+            ("device_name"	"OPAMP")
+            ("pspice_path"	"E_U6")
+            ("level"	"0")
+            ("model_params"
+                ("VPOS"
+                    ("value"	"60")
+                    ("pspice_param"	"VPOS")
+                )
+                ("VNEG"
+                    ("value"	"0")
+                    ("pspice_param"	"VNEG")
+                )
+                ("Schematics' Source Library"
+                    ("value"	"E:\\library\\tmp\\analog.slb")
+                    ("pspice_param"	"Schematics' Source Library")
+                )
+                ("GAIN"
+                    ("value"	"1E6")
+                    ("pspice_param"	"GAIN")
+                )
+            )
+        )
+        ("D1"
+            ("device_name"	"1N4151")
+            ("pspice_path"	"D_D1")
+            ("level"	"0")
+            ("model_params"
+                ("AREA"
+                    ("value"	"")
+                    ("pspice_param"	"AREA")
+                )
+                ("COMPONENT"
+                    ("value"	"1N4151")
+                    ("pspice_param"	"COMPONENT")
+                )
+            )
+        )
+        ("R8"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R8")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"{R_sweep}")
+                    ("pspice_param"	"VALUE")
+                )
+            )
+        )
         ("PARAM"
             ("device_name"	"Param")
             ("pspice_path"	"")
             ("level"	"0")
             ("model_params"
+                ("r_sweep"
+                    ("value"	"10")
+                    ("pspice_param"	"r_sweep")
+                )
                 ("v_node"
                     ("value"	"0")
                     ("pspice_param"	"v_node")

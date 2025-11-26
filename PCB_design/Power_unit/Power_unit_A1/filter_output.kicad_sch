@@ -5,22 +5,25 @@
 	(uuid "ac3fc701-b5a7-40dd-b043-0fa23e1a001f")
 	(paper "A4")
 	(title_block
-		(title "Power supply - low level driver")
-		(date "2024-06-28")
+		(title "${PROJECTNAME}")
+		(date "2025-11-22")
+		(rev "A.1")
+		(company "David Haisman")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0.254 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,8 +31,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,7 +41,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -55,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +67,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,13 +85,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
+			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -97,10 +100,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -108,10 +111,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 2.54 270)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -128,8 +131,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 0 -2.54 90)
+					(length 2.032)
 					(name "~"
 						(effects
 							(font
@@ -309,7 +312,7 @@
 		(uuid "ae5e5540-417d-4848-a81f-7e8300b93da4")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Device:C_Small")
 		(at 187.96 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -318,8 +321,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eabe46a4-3c09-4f75-8fd5-f5bc3aad605d")
-		(property "Reference" "C701"
-			(at 191.77 97.7899 0)
+		(property "Reference" "C801"
+			(at 190.5 97.7962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -328,7 +331,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 191.77 100.3299 0)
+			(at 190.5 100.3362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 188.9252 102.87 0)
+			(at 187.96 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -364,29 +367,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "5d831c71-38c4-4539-ae6b-1500f8a3476e")
+			(uuid "0407ba0b-5bb3-432f-9cfb-fa904de06e2b")
 		)
 		(pin "1"
-			(uuid "f1152189-83d7-4df1-ad31-8b8872f909b5")
+			(uuid "6750b2bc-438c-4c6d-b1e0-a93032033033")
 		)
 		(instances
-			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7a6cc648-2320-4c5a-8776-ce46b8832613"
-					(reference "C1201")
-					(unit 1)
-				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/a606a429-17db-405f-9eaf-8fc6a9c822cc"
-					(reference "C1101")
-					(unit 1)
-				)
-			)
-			(project "Low-level-driver"
+			(project ""
 				(path "/39e95423-af83-4645-98fc-4a660ba074aa/20cf9902-7d32-4984-b311-7ec20afcd44b"
-					(reference "C701")
+					(reference "C801")
+					(unit 1)
+				)
+				(path "/39e95423-af83-4645-98fc-4a660ba074aa/380e1241-e27a-406c-8ff1-1cc9f5ff715e"
+					(reference "C2401")
 					(unit 1)
 				)
 				(path "/39e95423-af83-4645-98fc-4a660ba074aa/7f5a6bae-77cc-49f4-bbf3-c2e71110d959"
 					(reference "C801")
+					(unit 1)
+				)
+				(path "/39e95423-af83-4645-98fc-4a660ba074aa/a039f445-7ed4-4a1a-9ecd-1e141bc06e0f"
+					(reference "C2301")
 					(unit 1)
 				)
 			)
@@ -401,7 +402,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f76976e3-664c-43e2-acb2-736a01052ce3")
-		(property "Reference" "#PWR0701"
+		(property "Reference" "#PWR0801"
 			(at 187.96 109.22 0)
 			(effects
 				(font
@@ -446,26 +447,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "5daed419-76c5-4dfc-a385-13168dc25372")
+			(uuid "eeefaf33-5f7d-440c-881b-83668fd5e5dc")
 		)
 		(instances
-			(project "Low-level-driver"
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/7a6cc648-2320-4c5a-8776-ce46b8832613"
-					(reference "#PWR01201")
-					(unit 1)
-				)
-				(path "/2e43a8c9-1b23-4896-a481-133b23afb346/a606a429-17db-405f-9eaf-8fc6a9c822cc"
-					(reference "#PWR01101")
-					(unit 1)
-				)
-			)
-			(project "Low-level-driver"
+			(project ""
 				(path "/39e95423-af83-4645-98fc-4a660ba074aa/20cf9902-7d32-4984-b311-7ec20afcd44b"
-					(reference "#PWR0701")
+					(reference "#PWR0801")
+					(unit 1)
+				)
+				(path "/39e95423-af83-4645-98fc-4a660ba074aa/380e1241-e27a-406c-8ff1-1cc9f5ff715e"
+					(reference "#PWR02401")
 					(unit 1)
 				)
 				(path "/39e95423-af83-4645-98fc-4a660ba074aa/7f5a6bae-77cc-49f4-bbf3-c2e71110d959"
 					(reference "#PWR0801")
+					(unit 1)
+				)
+				(path "/39e95423-af83-4645-98fc-4a660ba074aa/a039f445-7ed4-4a1a-9ecd-1e141bc06e0f"
+					(reference "#PWR02301")
 					(unit 1)
 				)
 			)

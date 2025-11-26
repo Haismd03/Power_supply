@@ -1,0 +1,19 @@
+** Profile: "Test-Test"  [ D:\Projekty\Power_supply\PCB_design\Simulations\LM5143\LM5143-PSpiceFiles\Test\Test.sim ] 
+
+** Creating circuit file "Test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\David\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Test.net" 
+
+
+.END

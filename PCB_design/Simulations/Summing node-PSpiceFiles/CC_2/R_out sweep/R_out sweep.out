@@ -1,0 +1,136 @@
+
+**** 10/26/25 20:51:44 **** PSpice 24.1.0 (23 January 2025) *** ID# 0 ********
+
+ ** Profile: "CC_2-R_out sweep"  [ d:\projekty\power_supply\pcb_design\simulations\summing node-PSpiceFiles\CC_2\R_out sweep.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "R_out sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\David\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM R_out 10 100m 100m 
+.STEP PARAM I_node LIST 3, 2, 1, 0.5 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\CC_2.net" 
+
+
+
+**** INCLUDING CC_2.net ****
+* source SUMMING NODE
+R_R12         N06321 0 100k
+R_R_sense         R_SENSE_1 OUT2  10m TC=0,0 
+R_R6         N06667 0 1400
+R_R10         N06321 R_SENSE_1 10k
+V_V6         N06723 0 {V_node}
+E_U4         R_SENSE_1 0 VALUE {LIMIT(V(N06879,N06667)*1E6,0,60)}
+R_R9         N06405 OUT2 10k
+V_I_AMP         OUT2 N06639 0Vdc
+Q_Q1         N06667 N07172 OUT2 BC557A 
+R_R8         0 N06639  {R_out} TC=0,0 
+R_R4         OUT2 N06667 100k
+R_R5         N06667 N06723  5900 TC=0,0 
+R_R11         N06405 I_SENSE 100k
+V_V5         N06879 0 0.6V
+E_U5         I_SENSE 0 VALUE {LIMIT(V(N06321,N06405)*1E6,0,3.3)}
+E_U6         I_SENSE_2 0 VALUE {LIMIT(V(N08722,N08806)*1E6,0,3.3)}
+R_R19         N08806 I_SENSE_2 100k
+R_R17         N08722 I_SENSE 100k
+R_R18         N08806 N08902 100k
+R_R16         N08722 0 100k
+V_V8         N08902 0 {I_node}
+Q_Q2         N07172 N09474 0 BC547A 
+R_R20         N09474 I_SENSE_2  10k TC=0,0 
+V_V9         N09962 0 1V
+R_R21         N09962 N08722 100k
+.PARAM  r_out=2 v_node=0 i_node=2.5
+
+**** RESUMING "R_out sweep.cir" ****
+.END
+
+**** 10/26/25 20:51:44 **** PSpice 24.1.0 (23 January 2025) *** ID# 0 ********
+
+ ** Profile: "CC_2-R_out sweep"  [ d:\projekty\power_supply\pcb_design\simulations\summing node-PSpiceFiles\CC_2\R_out sweep.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               BC557A          BC547A          
+               PNP             NPN             
+       LEVEL    1               1            
+          IS    1.020000E-15    7.049000E-15 
+          BF  174.7           253            
+          NF    1               1            
+         VAF   73.79          127.9          
+         IKF     .1023           .07705      
+         ISE   10.730000E-15   96.260000E-15 
+          NE    1.644           1.556        
+          BR    4.432           1            
+          NR    1               1            
+         IKR    2.237           3.321        
+         ISC   14.740000E-15  130.800000E-15 
+          NC    1.296           1.602        
+          NK     .5033           .5305       
+         ISS    0               0            
+          RE    0               0            
+          RC    1.039            .8766       
+         CJE   30.000000E-12   11.500000E-12 
+         VJE     .5              .5          
+         MJE     .3333           .6715       
+         CJC    9.810000E-12    5.250000E-12 
+         VJC     .4865           .5697       
+         MJC     .332            .3147       
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          TF  830.300000E-12  409.500000E-12 
+         XTF   10.32           40.12         
+         VTF   10              10            
+         ITF     .8981          1.994        
+          TR   10.000000E-09   10.000000E-09 
+         XTB    1.5             1.5          
+          KF    0               0            
+          AF    1               1            
+          CN    2.2             2.42         
+           D     .52             .87         
+
+
+
+          JOB CONCLUDED
+
+**** 10/26/25 20:51:44 **** PSpice 24.1.0 (23 January 2025) *** ID# 0 ********
+
+ ** Profile: "CC_2-R_out sweep"  [ d:\projekty\power_supply\pcb_design\simulations\summing node-PSpiceFiles\CC_2\R_out sweep.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     PARAM I_NODE =     .5   
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .09
+
